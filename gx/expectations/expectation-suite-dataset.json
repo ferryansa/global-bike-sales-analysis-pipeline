@@ -1,0 +1,85 @@
+{
+  "data_asset_type": null,
+  "expectation_suite_name": "expectation-suite-dataset",
+  "expectations": [
+    {
+      "expectation_type": "expect_column_values_to_be_unique",
+      "kwargs": {
+        "column": "id_transaction"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "customer_age",
+        "max_value": 87,
+        "min_value": 17
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "kwargs": {
+        "column": "sub_category",
+        "value_set": [
+          "Bike Racks",
+          "Bike Stands",
+          "Bottles and Cages",
+          "Caps",
+          "Cleaners",
+          "Fenders",
+          "Gloves",
+          "Helmets",
+          "Hydration Packs",
+          "Jerseys",
+          "Mountain Bikes",
+          "Road Bikes",
+          "Shorts",
+          "Socks",
+          "Tires and Tubes",
+          "Touring Bikes",
+          "Vests"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "eco_friendly",
+        "type_list": [
+          "bool"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_dateutil_parseable",
+      "kwargs": {
+        "column": "date"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_table_row_count_to_be_between",
+      "kwargs": {
+        "max_value": 113061,
+        "min_value": 113061
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_table_column_count_to_be_between",
+      "kwargs": {
+        "max_value": 31,
+        "min_value": 31
+      },
+      "meta": {}
+    }
+  ],
+  "ge_cloud_id": null,
+  "meta": {
+    "great_expectations_version": "0.18.19"
+  }
+}
