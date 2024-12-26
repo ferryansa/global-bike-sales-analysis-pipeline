@@ -67,40 +67,40 @@ Sourced from [Kaggle](https://www.kaggle.com/datasets/hamedahmadinia/global-bike
 
 ## **Conclusion 📊**
 
-### **Sales Trends and Profitability**
+**Sales Trends and Profitability**
 - Seasonal trends indicate peak sales during holidays and cycling events. High-performing markets like the United States and Australia dominate profitability.
 - The Bikes category generates the majority of profits, while Accessories contribute significantly in terms of quantity.
 
-### **Top-Performing Products and Locations**
+**Top-Performing Products and Locations**
 - The United States and Australia are the most profitable regions, while some European markets underperform.
 
-### **Discount Impact**
+**Discount Impact**
 - Discounts have diminishing returns beyond a threshold of 10–20%.
 
-### **Customer Segmentation**
+**Customer Segmentation**
 - Adults (35–64) and Young Adults (25–34) generate 86% of revenue, highlighting key target demographics.
 
-### **Operational Efficiency**
+**Operational Efficiency**
 - Consistent profit margins suggest opportunities for optimization in underperforming regions and categories.
 
 ## **Recommendations 💡**
 
-### **Enhance Revenue Growth**
+**Enhance Revenue Growth**
 - Leverage seasonal trends: Plan marketing campaigns and inventory restocking during high-demand periods.
 - Focus on high-performing regions like the United States and Australia to maximize profitability.
 
-### **Optimize Product Strategy**
+**Optimize Product Strategy**
 - Expand offerings in the Bikes category by introducing premium and entry-level models.
 - Reassess underperforming categories like Clothing for strategic improvements.
 
-### **Fine-Tune Discount Strategies**
+**Fine-Tune Discount Strategies**
 - Maintain discounts at an optimal level of 10–20% to balance order quantity and profitability.
 - Use targeted discounts to stimulate growth in underperforming regions and product categories.
 
-### **Improve Customer Retention**
+**Improve Customer Retention**
 - Develop customer loyalty programs, emphasizing rewards for frequent purchases and referrals.
 
-### **Optimize Operations**
+**Optimize Operations**
 - Invest in logistics and supply chains for underperforming regions to reduce costs and improve efficiency.
 
 ## **Dependencies 📚**
