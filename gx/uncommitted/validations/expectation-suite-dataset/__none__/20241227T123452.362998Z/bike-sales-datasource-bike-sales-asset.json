@@ -1,0 +1,242 @@
+{
+  "evaluation_parameters": {},
+  "meta": {
+    "active_batch_definition": {
+      "batch_identifiers": {},
+      "data_asset_name": "bike-sales-asset",
+      "data_connector_name": "fluent",
+      "datasource_name": "bike-sales-datasource"
+    },
+    "batch_markers": {
+      "ge_load_time": "20241227T123452.371164Z",
+      "pandas_data_fingerprint": "a0814f9cce81c001b80afcc9d474e0f2"
+    },
+    "batch_spec": {
+      "reader_method": "read_csv",
+      "reader_options": {
+        "filepath_or_buffer": "data\\data_clean.csv"
+      }
+    },
+    "checkpoint_id": null,
+    "checkpoint_name": "checkpoint",
+    "expectation_suite_name": "expectation-suite-dataset",
+    "great_expectations_version": "0.18.19",
+    "run_id": {
+      "run_name": null,
+      "run_time": "2024-12-27T19:34:52.362998+07:00"
+    },
+    "validation_id": null,
+    "validation_time": "20241227T123452.902407Z"
+  },
+  "results": [
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_unique",
+        "kwargs": {
+          "batch_id": "bike-sales-datasource-bike-sales-asset",
+          "column": "id_transaction"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "element_count": 113061,
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": [],
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "unexpected_percent_total": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "bike-sales-datasource-bike-sales-asset",
+          "column": "customer_age",
+          "max_value": 87,
+          "min_value": 17
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "element_count": 113061,
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": [],
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "unexpected_percent_total": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+          "batch_id": "bike-sales-datasource-bike-sales-asset",
+          "column": "sub_category",
+          "value_set": [
+            "Bike Racks",
+            "Bike Stands",
+            "Bottles and Cages",
+            "Caps",
+            "Cleaners",
+            "Fenders",
+            "Gloves",
+            "Helmets",
+            "Hydration Packs",
+            "Jerseys",
+            "Mountain Bikes",
+            "Road Bikes",
+            "Shorts",
+            "Socks",
+            "Tires and Tubes",
+            "Touring Bikes",
+            "Vests"
+          ]
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "element_count": 113061,
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": [],
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "unexpected_percent_total": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_in_type_list",
+        "kwargs": {
+          "batch_id": "bike-sales-datasource-bike-sales-asset",
+          "column": "eco_friendly",
+          "type_list": [
+            "bool"
+          ]
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "bool_"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_dateutil_parseable",
+        "kwargs": {
+          "batch_id": "bike-sales-datasource-bike-sales-asset",
+          "column": "date"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "element_count": 113061,
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": [],
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "unexpected_percent_total": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_table_row_count_to_be_between",
+        "kwargs": {
+          "batch_id": "bike-sales-datasource-bike-sales-asset",
+          "max_value": 113061,
+          "min_value": 113061
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": 113061
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_table_column_count_to_be_between",
+        "kwargs": {
+          "batch_id": "bike-sales-datasource-bike-sales-asset",
+          "max_value": 31,
+          "min_value": 31
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": 31
+      },
+      "success": true
+    }
+  ],
+  "statistics": {
+    "evaluated_expectations": 7,
+    "success_percent": 100.0,
+    "successful_expectations": 7,
+    "unsuccessful_expectations": 0
+  },
+  "success": true
+}
