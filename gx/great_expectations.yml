@@ -94,7 +94,7 @@ data_docs_sites:
       class_name: DefaultSiteIndexBuilder
 
 anonymous_usage_statistics:
-  data_context_id: e0a7863f-da41-42fe-b2ef-96e4431af0c4
+  data_context_id: 9165f83d-ba89-422f-ad89-5e821e9fe4e5
   enabled: true
 fluent_datasources:
   bike-sales-datasource:
